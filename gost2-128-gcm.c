@@ -2,8 +2,8 @@
  * GOST2-128 + GCM file encrypt/decrypt tool (streaming, block by block)
  *
   * Build:
- *   Unix/macOS: gcc gost2gcm.c -o gost2gcm -Wall
- *   Windows (MinGW): gcc gost2gcm.c -o gost2gcm -lbcrypt -Wall
+ *   Unix/macOS: gcc gost2-128-gcm.c -o gost2gcm -Wall
+ *   Windows (MinGW): gcc gost2-128-gcm.c -o gost2gcm -lbcrypt -Wall
  *
  * Usage:
  *   gost2gcm c <input_file>   // encrypt -> writes <input_file>.gost2
